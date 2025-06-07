@@ -7,18 +7,18 @@ add_repositories("OTOTYAN https://github.com/OEOTYAN/xmake-repo.git")
 
 
 -- LeviMc(LiteLDev)
-add_requires("levilamina 1.1.2", {configs = {target_type = "server"}})
-add_requires("levibuildscript 0.3.0")
-add_requires("legacymoney 0.9.0-rc.1")
+add_requires("levilamina 1.2.1", {configs = {target_type = "server"}})
+add_requires("levibuildscript")
+add_requires("legacymoney")
 
 -- OTOTYAN
-add_requires("bsci 0.1.6")
+add_requires("bsci")
 
 -- MiracleForest
-add_requires("ilistenattentively 0.4.2")
+add_requires("ilistenattentively")
 
 -- xmake
-add_requires("exprtk 0.0.3")
+add_requires("exprtk")
 
 if has_config("devtool") then
     add_requires("imgui v1.91.6-docking", {configs = { opengl3 = true, glfw = true }})
